@@ -1,10 +1,12 @@
 import NavBar from "./navbar/NavBar";
 import Cover from "./coverPage.jsx/cover";
+import About from "./About/about"
 function Index() {
     return ( 
         <>
-         <NavBar/>
-         <Cover/>
+            <NavBar/>
+            <Cover/>
+            <About/>
         </>
        
      );

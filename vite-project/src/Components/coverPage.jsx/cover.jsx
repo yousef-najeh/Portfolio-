@@ -13,7 +13,8 @@ function Cover() {
             <Content/>
             <Box width={"300px"}
                  height={"400px"}
-                 bgcolor={"red"}>
+                 bgcolor={"red"}
+                 marginTop={"50px"}>
                 <Typography variant="body1" color="red">Photo</Typography>
             </Box>
         </Box>
