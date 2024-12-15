@@ -9,6 +9,17 @@ function NavBar() {
         setDrawerOpen(!isDrawerOpen);
     };
 
+    const handleDownload = () => {
+        console.log("fwef")
+        const link = document.createElement('a');
+        link.href = './cv.pdf'; // Ensure the file is located in the public folder
+        link.download = 'cv.pdf'; // The name the file will be saved as
+        document.body.appendChild(link); // Append the link to the DOM
+        link.click();
+        document.body.removeChild(link); // Remove the link after clicking
+    };
+    
+
     return (
         <Box
     bgcolor="#030712"
@@ -98,6 +109,7 @@ function NavBar() {
                     </ListItem>
                     <ListItem button>
                         <Button
+                            onClick={handleDownload}
                             sx={{
                                 color: "white",
                             }}
