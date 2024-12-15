@@ -4,14 +4,16 @@ function Card() {
     return (
         <Box
             width={"100%"}
-            height={"288px"}
             bgcolor={"#1F2937"}
             display={"flex"}
             justifyContent={"space-between"}
-            p={"25px"}
             borderRadius={"10px"}
+            flexDirection={{xs:"column",md:"row"}}
         >
-            <Box display={"flex"} gap={"30px"}>
+            <Box display={"flex"} 
+                 gap={"30px"}
+                 flexDirection={{xs:"column",md:"row"}}>
+
                 <Box component={"img"} src="./Asal.png" />
 
                 <Box p={"10px"} display={"flex"} flexDirection={"column"}>
@@ -42,7 +44,7 @@ function Card() {
                 </Box>
             </Box>
 
-            <Typography variant="body1" color={"white"} p={"10px"}>
+            <Typography p={"10px"} variant="body1" color={"white"} >
                 November 2023 - jan 2024
             </Typography>
         </Box>
