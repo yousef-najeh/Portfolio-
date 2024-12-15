@@ -1,4 +1,4 @@
-import {Box, Typography} from "@mui/material";
+import {Box} from "@mui/material";
 import Content from "./content";
 function Cover() {
     return ( 
@@ -14,9 +14,9 @@ function Cover() {
             <Box width={"300px"}
                  height={"400px"}
                  bgcolor={"red"}
-                 marginTop={"50px"}>
-                <Typography variant="body1" color="red">Photo</Typography>
-            </Box>
+                 marginTop={"50px"}
+                 component={"img"}
+                 src="/yousef.jpg"/>
         </Box>
     );
 }

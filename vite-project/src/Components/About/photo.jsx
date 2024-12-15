@@ -1,8 +1,13 @@
-
+import { Box } from "@mui/material";
 
 function AboutPhoto() {
     return ( 
-        <h1 style={{"color":"white"}}>Photo</h1>
+        <Box width={"440px"}
+             height={"px"}
+             bgcolor={"red"}
+             marginTop={"50px"}
+             component={"img"}
+             src="./yousef.jpg"/>
     );
 }
 
