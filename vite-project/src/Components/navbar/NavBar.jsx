@@ -11,19 +11,21 @@ function NavBar() {
 
     return (
         <Box
-            bgcolor={"#030712"}
-            height="70px"
-            position={"sticky"}
-            left={"0"}
-            top={"0"}
-            sx={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                padding: "0 10px",
-                margin: "0", 
-            }}
-        >
+    bgcolor="#030712"
+    height="70px"
+    position="sticky"
+    top="0"
+    left="0"
+    sx={{
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "0 10px",
+        margin: 0,
+        zIndex: 1000, // Ensures the header stays on top of other content
+        boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)", // Optional: Adds shadow for depth
+    }}
+    >
             <Typography
                 sx={{
                     fontSize: { xs: "20px", md: "30px" },

@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Link, Typography } from "@mui/material";
 
 import PlaceOutlinedIcon from '@mui/icons-material/PlaceOutlined';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -37,9 +37,9 @@ function content() {
             </Box>
 
             <Box display={"flex"} gap={"30px"} alignItems={"center"}>
-                <Typography variant="body1" color="white" sx={{ alignItems: "center" }}><GitHubIcon /></Typography>
-                <Typography variant="body1" color="white" sx={{ alignItems: "center" }}><TwitterIcon /></Typography>
-                <Typography variant="body1" color="white" sx={{ alignItems: "center" }}><LinkedInIcon /></Typography>
+                <Link href={"https://github.com/yousefQJ19"}  sx={{ alignItems: "center" }}><GitHubIcon /></Link>
+                <Link   sx={{ alignItems: "center" }}><TwitterIcon /></Link>
+                <Link  href={"https://www.linkedin.com/in/yousef-najeh-364577234/"} sx={{ alignItems: "center" }}><LinkedInIcon /></Link>
             </Box>
         </Box>
     );

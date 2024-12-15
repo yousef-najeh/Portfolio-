@@ -4,10 +4,10 @@ function AboutContent() {
     return (
         <Box
             width={{ xs: "90%", md: "584px" }} 
-            margin="50px auto" 
             display="flex"
             flexDirection="column"
             gap="15px"
+            justifyContent={"space-evenly"}
         >
             <Typography
                 variant="h4"
@@ -42,12 +42,12 @@ function AboutContent() {
             <Typography variant="body1" color="white">
                 When I&apos;m not in full-on developer mode, you can find me hovering around on
                 LinkedIn or on LeetCode, witnessing the journey of early startups, or enjoying some
-                free time. You can follow me on{" "}
-                <Link href="https://linkedin.com" target="_blank" color="#3b82f6" underline="hover">
+                free time. You can follow me on
+                <Link href="https://www.linkedin.com/in/yousef-najeh-364577234/" target="_blank" color="#3b82f6" underline="hover">
                     LinkedIn
-                </Link>{" "}
+                </Link>
                 where I share my tech-related bites and build in public, or you can follow me on{" "}
-                <Link href="https://github.com" target="_blank" color="#3b82f6" underline="hover">
+                <Link href="https://github.com/yousefQJ19" target="_blank" color="#3b82f6" underline="hover">
                     GitHub
                 </Link>.
             </Typography>
