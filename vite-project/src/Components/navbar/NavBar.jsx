@@ -12,8 +12,8 @@ function NavBar() {
     const handleDownload = () => {
         console.log("fwef")
         const link = document.createElement('a');
-        link.href = './cv.pdf'; // Ensure the file is located in the public folder
-        link.download = 'cv.pdf'; // The name the file will be saved as
+        link.href = './YousefSamara.pdf'; // Ensure the file is located in the public folder
+        link.download = 'yousef samara.pdf'; // The name the file will be saved as
         document.body.appendChild(link); // Append the link to the DOM
         link.click();
         document.body.removeChild(link); // Remove the link after clicking
@@ -64,6 +64,7 @@ function NavBar() {
                     Experience
                 </Link>
                 <Button
+                    onClick={handleDownload}
                     sx={{
                         fontSize: "20px",
                         color: "white",

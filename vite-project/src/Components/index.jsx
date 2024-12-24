@@ -1,18 +1,20 @@
 import NavBar from "./navbar/NavBar";
 import Cover from "./coverPage.jsx/cover";
-import About from "./About/about";
 import Skills from "./skills/skillls";
-import Experience from "./Experince/experince";
 import { Box } from "@mui/material";
+import ProjectSection from "./Projects/projectSection";
+import Connect from "./Connect/connect";
 
 function Index() {
     return (
         <Box height={"100vh"}>
             <NavBar />
             <Cover />
-            <About />
+            {/* <About /> */}
             <Skills/>
-            <Experience/>
+            {/* <Experience/> */}
+            <ProjectSection/>
+            <Connect/>
         </Box>
     );
 }

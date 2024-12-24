@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Twitter Clone",
+      "technologies": ["React.js", "ChakraUI", "Supabase"],
+      "description": "The app is a social media platform where users can publish posts, react to content, and follow or be followed by others. It includes a notification system to keep users updated on interactions like likes, comments, and follows, along with a trending page to showcase popular content and accounts.",
+      "timeline": "08/2024 – present",
+      "url":"https://github.com/yousef-najeh/Twitter-Mock-Main"
+    },
+    {
+      "title": "Data Aggregation Project",
+      "technologies": ["Java (Maven)"],
+      "description": "Aggregating fake data from multiple services, represented as Java classes involves functions like deleting, uploading, and converting files (pdf, txt, zip) with applying design principles, patterns, and best practices in this context.",
+      "timeline": "12/2023 – 01/2024",
+      "url":"https://github.com/yousef-najeh/Advance-project"
+    },
+    {
+      "title": "BR Architect Landing Page - (ASAL Internship Project)",
+      "technologies": ["React.js", "Sass"],
+      "description": "A landing page for an architecture company using React components and Sass for styling. The project involved validating forms, fetching data, paginating, and deploying the site on a static hosting service (GitHub Pages) with a focus on clean code practices and collaboration with GitHub for version control.",
+      "timeline": "09/2023 – 01/2024",
+      "url":"https://github.com/yousef-najeh/Br-Archetect"
+    }
+  ]
+  

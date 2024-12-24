@@ -8,7 +8,7 @@ function Skill({text,photo}) {
              alignItems={"center"} 
              gap={"10px"} 
              padding={"20px"}>
-            <Box component={"img"} src={photo} width={"100px"} height={"100px"} sx={{aspectRatio:"3/4",objectFit:"contain"}} />
+            <Box component={"img"} src={photo} width={"60px"} height={"60px"} sx={{aspectRatio:"3/4",objectFit:"contain"}} />
             <Typography variant="body1" color="white">{text}</Typography>   
         </Box> 
     );
