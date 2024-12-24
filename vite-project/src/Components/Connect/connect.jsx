@@ -7,7 +7,6 @@ const Connect = () => {
       sx={{
         p: 4,
         backgroundColor: '#374151',
-        borderRadius: 2,
         textAlign: 'center',
         boxShadow: 2,
       }}
